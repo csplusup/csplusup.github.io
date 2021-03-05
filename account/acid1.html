@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSPLUSUP - Подними скинов!</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+    <center><div class="menu">
+        <img src="/img/avatar.png" class="avatar" alt="">
+        <a href="/" class="floating-buttone">Выйти</a>
+    </div></center>
+    
+    <div id="circle">
+        <center><h4 class="ui">Розыгрыш в 06.03.2021 15:00 МСК </h4></center>
+     <img src="/img/gift.png" class="gift" alt="">
+     <img src="/weapon/W1.png" class="gift1" alt="">
+     <center><a id="yu" class="yu">Участвовать!</a></center>
+    </div>
+
+    <div class="inven">
+      
+      <div id="weapon">
+         <img width="200px" src="/weapon/W1.png" alt="">
+         <a id="vivod" style="text-decoration: none; color: white; cursor: pointer;">Вывести</a>
+      </div>
+
+      
+
+    </div>
+
+
+    <script>
+        var button = document.getElementById("yu");
+    button.addEventListener('click', function() {
+        Swal.fire('Вы приняли участие!','Если вы выйграете то вы получите оружие на сайте, который можно будет вывести!','success')
+
+});
+    </script>
+
+<script>
+    var button = document.getElementById("vivod");
+button.addEventListener('click', function() {
+    Swal.fire('Вы поставили на вывод предмет!','Ждите пока к вам не придёт трейд!','success')
+
+});
+</script>
+</body>
+</html>
