@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    position: relative;
+    background: linear-gradient(95deg, #DCE35B,#45B649);
+    width: 1200px;
+    height: 80px;
+    border-radius: 11px;
+}
+
+body {
+    /*background: linear-gradient(95deg, #c0c0aa,#1cefff);*/
+    background: url(/img/fon.jpg);;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.floating-button {
+    position: relative;
+    left: 300px;
+    bottom: 70px;
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+  }
+
+  .floating-buttone {
+    position: relative;
+    left: 300px;
+    bottom: 70px;
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+  }
+  .floating-button:hover {
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: white;
+    transform: translateY(-7px);
+  }
+
+  .floating-buttone:hover {
+    background: red;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: white;
+    transform: translateY(-7px);
+  }
+
+  #circle {
+      position: relative;
+      top: 50px;
+      left: 1500px;
+    width: 350px;
+    height: 150px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: blueviolet;
+
+  }
+
+  .gift {
+      position: relative;
+      width: 110px;
+      left: 10px;
+  }
+
+  .ui {
+      color: white;
+
+  }
+
+  .gift1 {
+    position: relative;
+    width: 150px;
+    left: 100px;
+  }
+
+  .yu {
+      position: relative;
+      color: white;
+      bottom: 20px;
+      cursor: pointer;
+      text-decoration: none;
+  }
+
+  .inven {
+      position: relative;
+      top: 300px;
+      left: 100px;
+      width: 500px;
+      height: 350px;
+      border-radius: 11px;
+      background-color: yellow;
+  }
+
+
+  #weapon {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    background-color: red;
+    top: 10px;
+    left: 15px;
+    float: left;
+    margin: 0 15px 15px 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.avatar {
+    position: relative;
+    bottom: 20px;
+    right: 320px;
+    width: 170px;
+}
